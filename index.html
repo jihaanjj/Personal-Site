@@ -15,10 +15,9 @@
 
 <body>
   <!-- navbar -->
-  <div class="container py-3">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark nav ">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="#">JJJ</a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,35 +25,32 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skill</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">My Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#my-projects">My Projects</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  </div>
+  </header>
 
   <!-- jumbotron -->
-  <div class="container col-xxl-8 px-4 py-3 border-bottom">
+  <section id="home" class="container col-xxl-8 px-4 py-3 border-bottom">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6 text-center mx-auto">
-        <img src="assets/img/profile-img-2.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700"
-          height="500" loading="lazy">
+        <img src="assets/img/profile-img-2.png" class="d-block mx-auto img-fluid" alt="Jihaan Jasmine Jahroo"
+          width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Jihaan Jasmine Jahroo</h1>
@@ -76,13 +72,18 @@
               <i class="fa-brands fa-linkedin"></i>
             </button>
           </a>
+          <a href="mailto:jihaanjasminejahroo@gmail.com" title="Send Email">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4" title="Gmail">
+              <i class="fa-solid fa-envelope"></i>
+            </button>
+          </a>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- about me -->
-  <div class="px-4 pt-5 my-5 text-center border-bottom">
+  <section id="about" class="px-4 py-5 my-5 text-center border-bottom">
     <h2 class="display-4 fw-bold text-body-emphasis">About Me</h2>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">I’m a fresh graduate of Informatic Engineering, with a strong interest in software
@@ -92,247 +93,239 @@
         team, possess strong communication skills, and am always eager to learn new things and face new challenges in
         the technology field.</p>
     </div>
-  </div>
-  </div>
+  </section>
 
   <!-- skill -->
-  <div>
-    <div class="container px-4 py-5" id="icon-grid">
-      <h2 class="display-4 fw-bold text-body-emphasis text-center border-bottom">Skills</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 border-bottom">
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
+  <section id="skills">
+    <div>
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="display-4 fw-bold text-body-emphasis text-center border-bottom">Skills</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 border-bottom">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div>
+              <h3>HTML & CSS</h3>
+            </div>
           </div>
-          <div>
-            <h3>HTML & CSS</h3>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div>
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <i class="fa-brands fa-php"></i>
+            </div>
+            <div>
+              <h2>PHP</h2>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <img src="assets/img/skills/icons8-kotlin-ios-17-filled-16.png" alt="" srcset="">
+            </div>
+            <div>
+              <h3>Kotlin</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <i class="fa-brands fa-dart-lang"></i>
+            </div>
+            <div>
+              <h3>Dart</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <i class="fa-brands fa-laravel"></i>
+            </div>
+            <div>
+              <h3>Laravel</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+            <div>
+              <h3>Node JS</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <div>
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div>
+              <h3>SQL</h3>
+            </div>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <i class="fa-brands fa-js"></i>
-          </div>
-          <div>
-            <h3>JavaScript</h3>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <i class="fa-brands fa-php"></i>
-          </div>
-          <div>
-            <h2>PHP</h2>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <img src="assets/img/skills/icons8-kotlin-ios-17-filled-16.png" alt="" srcset="">
-          </div>
-          <div>
-            <h3>Kotlin</h3>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <i class="fa-brands fa-dart-lang"></i>
-          </div>
-          <div>
-            <h3>Dart</h3>
+  </section>
+
+  <!-- experience -->
+  <section id="experience" class="container py-5">
+    <h2 class="text-center mb-4">Experience</h2>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <div class="card mb-4 border-0 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">
+              Frontend Engineer Intern</h4>
+            <h6 class="text-muted">PT Telekomunikasi Selular</h6>
+            <p class="text-muted">Sep 2024 - Des 2024</p>
+            <dl>
+              <dt>Key Responsibilities:</dt>
+              <dd>- Developed responsive web applications using CodeIgniter 4 framework and Bootstrap for front-end
+                design.</dd>
+              <dd>- Integrated data visualization tools such as Power BI to create interactive dashboards for
+                real-time insights.</dd>
+              <dd>- Utilized QGIS to generate and visualize geospatial data for enhanced decision-making in business
+                analytics.</dd>
+              <dd>- Developed a WEBGIS application named "ERIN" using CodeIgniter 4, Geoserver, PostGIS, PostgreSQL,
+                and OpenLayers for efficient geospatial data management and visualization.</dd>
+            </dl>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <i class="fa-brands fa-laravel"></i>
-          </div>
-          <div>
-            <h3>Laravel</h3>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <i class="fa-brands fa-node-js"></i>
-          </div>
-          <div>
-            <h3>Node JS</h3>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <i class="fa-brands fa-python"></i>
-          </div>
-          <div>
-            <h3>Python</h3>
+        <div class="card mb-4 border-0 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">
+              Associate Project Manager Intern</h4>
+            <h6 class="text-muted">DOT Indonesia</h6>
+            <p class="text-muted">Mar 2024 - May 2024</p>
+            <dl>
+              <dt>Key Responsibilities:</dt>
+              <dd>- Involved in requirement gathering. </dd>
+              <dd>- Compiling reports for Stakeholders. </dd>
+              <dd>- Conducting Project evaluation against team members.</dd>
+              <dd>- Communicating with the Project manager and Lead Engineering.</dd>
+            </dl>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-            <i class="fa-solid fa-database"></i>
+        <div class="card mb-4 border-0 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">
+              Associate Project Manager Intern</h4>
+            <h6 class="text-muted">DOT Indonesia</h6>
+            <p class="text-muted">Mar 2024 - May 2024</p>
+            <dl>
+              <dt>Key Responsibilities:</dt>
+              <dd>- Involved in requirement gathering. </dd>
+              <dd>- Compiling reports for Stakeholders. </dd>
+              <dd>- Conducting Project evaluation against team members.</dd>
+              <dd>- Communicating with the Project manager and Lead Engineering.</dd>
+            </dl>
           </div>
-          <div>
-            <h3>SQL</h3>
+        </div>
+        <div class="card mb-4 border-0 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">
+              Mobile Development Cohort</h4>
+            <h6 class="text-muted">Bangkit Academy</h6>
+            <p class="text-muted">Aug 2023 - Dec 2023</p>
+            <dl>
+              <dt>Key Responsibilities:</dt>
+              <dd>- Learn about creating android applications using kotlin and creating android UI with XML and
+                jetpack compose. </dd>
+              <dd>- Learn to create UI for mobile apps. </dd>
+              <dd>- Build a capstone project which is a freelance app for those who like to play games called “Skill
+                Shift”.</dd>
+            </dl>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- experience -->
-      <section class="container py-5">
-        <h2 class="text-center mb-4">Experience</h2>
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <div class="card mb-4 border-0 shadow-sm">
+  <!-- project -->
+  <section id="my-projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <a href="https://example.com/project1" target="_blank" rel="noopener"
+              class="text-decoration-none text-dark">
+              <img src="assets/img/project/erin-web.png" class="card-img-top" alt="Project 1 Preview">
               <div class="card-body">
-                <h4 class="card-title">
-                  Frontend Engineer Intern</h4>
-                <h6 class="text-muted">PT Telekomunikasi Selular</h6>
-                <p class="text-muted">Sep 2024 - Des 2024</p>
-                <dl>
-                  <dt>Key Responsibilities:</dt>
-                  <dd>- Developed responsive web applications using CodeIgniter 4 framework and Bootstrap for front-end
-                    design.</dd>
-                  <dd>- Integrated data visualization tools such as Power BI to create interactive dashboards for
-                    real-time insights.</dd>
-                  <dd>- Utilized QGIS to generate and visualize geospatial data for enhanced decision-making in business
-                    analytics.</dd>
-                  <dd>- Developed a WEBGIS application named "ERIN" using CodeIgniter 4, Geoserver, PostGIS, PostgreSQL,
-                    and OpenLayers for efficient geospatial data management and visualization.</dd>
-                </dl>
+                <h5 class="card-title">ERIN Web</h5>
+                <p class="card-text">A WEBGIS that can map Telkomsel's network and non-network data, whether from
+                  crowdsourcing or other internal sources, into maps or dashboards to facilitate user analysis and
+                  insights for decision-making. <span class="bg-warning">Please note that this project is not public and
+                    is intended for authorized use only.</span></p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, PHP, CodeIgniter 4, Geoserver, PostGIS,
+                  PostgreSQL, OpenLayers, Bootstrap, Power BI</p>
+                <span class="badge bg-primary">Web Development</span>
               </div>
-            </div>
-            <div class="card mb-4 border-0 shadow-sm">
-              <div class="card-body">
-                <h4 class="card-title">
-                  Associate Project Manager Intern</h4>
-                <h6 class="text-muted">DOT Indonesia</h6>
-                <p class="text-muted">Mar 2024 - May 2024</p>
-                <dl>
-                  <dt>Key Responsibilities:</dt>
-                  <dd>- Involved in requirement gathering. </dd>
-                  <dd>- Compiling reports for Stakeholders. </dd>
-                  <dd>- Conducting Project evaluation against team members.</dd>
-                  <dd>- Communicating with the Project manager and Lead Engineering.</dd>
-                </dl>
-              </div>
-            </div>
-            <div class="card mb-4 border-0 shadow-sm">
-              <div class="card-body">
-                <h4 class="card-title">
-                  Associate Project Manager Intern</h4>
-                <h6 class="text-muted">DOT Indonesia</h6>
-                <p class="text-muted">Mar 2024 - May 2024</p>
-                <dl>
-                  <dt>Key Responsibilities:</dt>
-                  <dd>- Involved in requirement gathering. </dd>
-                  <dd>- Compiling reports for Stakeholders. </dd>
-                  <dd>- Conducting Project evaluation against team members.</dd>
-                  <dd>- Communicating with the Project manager and Lead Engineering.</dd>
-                </dl>
-              </div>
-            </div>
-            <div class="card mb-4 border-0 shadow-sm">
-              <div class="card-body">
-                <h4 class="card-title">
-                  Mobile Development Cohort</h4>
-                <h6 class="text-muted">Bangkit Academy</h6>
-                <p class="text-muted">Aug 2023 - Dec 2023</p>
-                <dl>
-                  <dt>Key Responsibilities:</dt>
-                  <dd>- Learn about creating android applications using kotlin and creating android UI with XML and
-                    jetpack compose. </dd>
-                  <dd>- Learn to create UI for mobile apps. </dd>
-                  <dd>- Build a capstone project which is a freelance app for those who like to play games called “Skill
-                    Shift”.</dd>
-                </dl>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
-      </section>
-
-      <!-- project -->
-      <section id="my-projects" class="py-5 bg-light">
-        <div class="container">
-          <h2 class="text-center mb-4">My Projects</h2>
-          <div class="row">
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card h-100 shadow-sm">
-                <a href="https://example.com/project1" target="_blank" rel="noopener" class="text-decoration-none text-dark">
-                  <img src="assets/img/project/erin-web.png" class="card-img-top" alt="Project 1 Preview">
-                  <div class="card-body">
-                    <h5 class="card-title">ERIN Web</h5>
-                    <p class="card-text">A WEBGIS that can map Telkomsel's network and non-network data, whether from crowdsourcing or other internal sources, into maps or dashboards to facilitate user analysis and insights for decision-making. <span class="bg-warning">Please note that this project is not public and is intended for authorized use only.</span></p>
-                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, PHP, CodeIgniter 4, Geoserver, PostGIS, PostgreSQL, OpenLayers, Bootstrap, Power BI</p>
-                    <span class="badge bg-primary">Web Development</span>
-                  </div>
-                </a>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <a href="https://github.com/lowermoon" target="_blank" rel="noopener"
+              class="text-decoration-none text-dark">
+              <img src="assets/img/project/skill-shift.png" class="card-img-top" alt="Project 2 Preview">
+              <div class="card-body">
+                <h5 class="card-title">Skill Shift</h5>
+                <p class="card-text">An android-based app designed for convenience, connecting freelance gamers with
+                  clients, offering quick and suitable matches.</p>
+                <p><strong>Tech Stack:</strong> Python, Android, Kotlin, Mysql, Jetpack Compose, React, Tensorflow,
+                  Google Cloud, Node JS</p>
+                <span class="badge bg-success">Android Development</span>
               </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card h-100 shadow-sm">
-                <a href="https://github.com/lowermoon" target="_blank" rel="noopener" class="text-decoration-none text-dark">
-                  <img src="assets/img/project/skill-shift.png" class="card-img-top" alt="Project 2 Preview">
-                  <div class="card-body">
-                    <h5 class="card-title">Skill Shift</h5>
-                    <p class="card-text">An android-based app designed for convenience, connecting freelance gamers with clients, offering quick and suitable matches.</p>
-                    <p><strong>Tech Stack:</strong> Python, Android, Kotlin, Mysql, Jetpack Compose, React, Tensorflow, Google Cloud, Node JS</p>
-                    <span class="badge bg-success">Android Development</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card h-100 shadow-sm">
-                <a href="https://porto-magenta.my.canva.site/ppt-revhamp-threads-pptx" target="_blank" rel="noopener" class="text-decoration-none text-dark">
-                  <img src="assets/img/project/revamp-threads.png" class="card-img-top" alt="Project 3 Preview">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Revamp Threads App</h5>
-                    <p class="card-text">In the final project of the MySkill UI/UX bootcamp, my team and I revamped the “Threads” application and received the Top 3 Best Team award</p>
-                    <p><strong>Tech Stack:</strong> Figma, Maze</p>
-                    <span class="badge bg-warning text-dark">UI/UX</span>
-                  </div>
-                </a>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
-      </section>
-
-      <!-- contact -->
-      <section id="contact" class="py-5 bg-light">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-6">
-              <h2 class="text-center mb-4">Contact Me</h2>
-              <form action="send_email.php" method="POST">
-                <div class="mb-3">
-                  <label for="name" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="name" name="name" required>
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="mb-3">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-                </div>
-                <div class="d-grid">
-                  <button type="submit" class="btn btn-primary">Send</button>
-                </div>
-              </form>
-            </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card h-100 shadow-sm">
+            <a href="https://porto-magenta.my.canva.site/ppt-revhamp-threads-pptx" target="_blank" rel="noopener"
+              class="text-decoration-none text-dark">
+              <img src="assets/img/project/revamp-threads.png" class="card-img-top" alt="Project 3 Preview">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Revamp Threads App</h5>
+                <p class="card-text">In the final project of the MySkill UI/UX bootcamp, my team and I revamped the
+                  “Threads” application and received the Top 3 Best Team award</p>
+                <p><strong>Tech Stack:</strong> Figma, Maze</p>
+                <span class="badge bg-warning text-dark">UI/UX</span>
+              </div>
+            </a>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <!-- for js -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
-      <script src="https://kit.fontawesome.com/fe5e872c9f.js" crossorigin="anonymous"></script>
+  <!-- footer -->
+  <footer class="bg-dark text-white text-center py-3  bottom-0 start-0 w-100">
+    <div class="container">
+      <p class="mb-0">&copy; Jihaan Jasmine Jahroo 2025</p>
+    </div>
+  </footer>
+
+
+  <!-- for js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/fe5e872c9f.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
