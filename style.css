@@ -1,0 +1,14 @@
+.skill-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    margin: 10px; /* Space between boxes */
+  }
+  .skill-box img {
+    max-height: 50px; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+  }
